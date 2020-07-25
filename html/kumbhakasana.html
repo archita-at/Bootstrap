@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Kumbhakasana - The Yoga Platform</title>
+	  	<meta charset="utf-8">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	  	<link rel="stylesheet" href="../css/kumbhakasana.css">
+	  	
+		<script>
+			function onHover($step){
+				switch($step){
+					case 1:
+						document.getElementById("imgsvg").src = "../media/kumbhakasana-STEP1.svg";
+						break;
+					case 2:
+						document.getElementById("imgsvg").src = "../media/kumbhakasana-STEP2.svg";
+						break;
+					case 3:
+						document.getElementById("imgsvg").src = "../media/kumbhakasana-STEP3.svg";
+						break;
+					case 4:
+						document.getElementById("imgsvg").src = "../media/kumbhakasana-STEP4.svg";
+						break;
+				}
+			}
+			function offHover(){
+				document.getElementById("imgsvg").src = "../media/kumbhakasana.svg";
+			}
+		</script>	
+	</head>
+	
+	<body>
+		<div class="heading">
+    		<a href="../index.html" class="display-3" style="text-decoration:none; color:white;">THE YOGA PLATFORM</a>
+  		</div>
+  		
+  		<div class="sub-heading">
+  			<h2 class="display-4">Kumbhakasana</h2>
+  		</div>
+  		
+  		<div class="sub-sub-heading">
+  			<h3 class="lead">THE PLANK POSE</h3>
+  		</div>
+  		
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-lg-7 col-md-12 col-sm-12">
+  					<img id="imgsvg" src="../media/kumbhakasana.svg" alt="Kumbhakasana">
+  				</div>
+  				<div class="col-lg-5 col-md-12 col-sm-12">
+  					<h3 class="how-to">HOW TO?</h3>
+  					<ol class="steps">
+  						<li onmouseover="onHover(1);" onmouseout="offHover();">We start on our fours. Wrists are under your shoulders.</li>
+  						<li onmouseover="onHover(2);" onmouseout="offHover();">Look between your hands. Spread your fingers and press through your hands into the ground.</li>
+  						<li onmouseover="onHover(3);" onmouseout="offHover();">Keep your chest open and engage your abdomen muscles. Visualize your belly button wants to touch your spine.</li>
+  						<li onmouseover="onHover(4);" onmouseout="offHover();">Inhale and straighten your legs (one after another) out to the back: lift your knees and step back.</li>
+  						<li onmouseover="onHover(5);" onmouseout="offHover();">Keep one line from the heels, legs over buttocks and torso.</li>
+  						<li onmouseover="onHover(6);" onmouseout="offHover();">Tuck your tailbone slightly forward to protect rounding your lower back.</li>
+  						<li onmouseover="onHover(7);" onmouseout="offHover();">Stay here for a few breaths. Soften your face and gaze.</li>
+  					</ol>
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-lg-4 col-md-4 col-sm-12">
+  					<div class="card">
+  						<div class="card-body">
+  							<h4 class="card-title">Who should do it?</h4>
+  							<p class="card-text">Those who want to tone and strengthen the muscles in shoulders, core, chest, thighs, and low back all at the same time.</p>
+  						</div>
+  					</div>
+  				</div>
+  				<div class="col-lg-4 col-md-4 col-sm-12">
+  					<div class="card">
+  						<div class="card-body">
+  							<h4 class="card-title">Who should not do it?</h4>
+  							<p class="card-text">Those suffering from wrist or shoulder injury or those having carpal tunnel syndrome.</p>
+  						</div>
+  					</div>
+  				</div>
+  				<div class="col-lg-4 col-md-4 col-sm-12">
+  					<div class="card">
+  						<div class="card-body">
+  							<h4 class="card-title">Why should we do it?</h4>
+  							<p class="card-text">Kumbhakasana strengthens the shoulders and arms, the muscles along the spine, tightens the abdominal muscles and helps to build stamina and endurance.</p>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  			<div class="container">
+  				<div class="row" style="border:none">
+  					<div class="col-9"></div>
+  					<div class="col-3">
+		  				<div class="back-btn">
+		  					<a href="asanas.html" class ="btn btn-default"><span class="fas fa-long-arrow-alt-left"></span>&nbsp;&nbsp;Go back to Asanas</a>
+		  				</div>
+		  			</div>
+  				</div>
+  			</div>
+  		</div>
+	</body>
+	
+</html>

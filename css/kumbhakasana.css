@@ -1,0 +1,96 @@
+﻿
+.heading {
+	margin-top: 10px;
+	margin-left:5%;
+	margin-bottom: 10px;
+	width:90%;
+  	text-align:center;
+  	border-radius:25px;
+  	background-color: #7F84BE;
+  	color: white;
+  	text-shadow: 4px 4px #6D75AA;
+}
+
+.sub-heading{
+	margin-left:10%;
+	width:80%;
+	text-align:center;
+	background-color: #BCC0DE;
+	color:white;
+	border-radius:20px;
+	text-shadow: 2px 2px #6D75AA;
+	padding: 2px;
+}
+
+.row{
+	border: thin #591B7D solid; 
+	border-radius:25px; 
+	margin-bottom: 10px;
+}
+
+.lead{
+	text-align:center;
+	font-size: 30px;
+	color: #591B7D;
+}
+
+.how-to{
+	color:#442178;
+	background-color:#E3D7F4;
+	text-align:center;
+	padding: 10px;
+	margin-top:10px;
+	border-radius:10px;
+}
+
+.steps{
+	font-size:18px;
+}
+
+li:hover{
+	background-color:#F2E6FF;
+	cursor:pointer;
+}
+
+.card{
+	min-width: 95%;
+	margin-top:10px;
+	min-height:90%;
+	margin-bottom: 10px;
+}
+
+.card-title{
+	padding: 10px;
+	border-radius:10px;
+	color:#442178;
+	background-color:#E3D7F4;
+	text-align:center;
+}
+
+.card-body{
+	text-align:center;
+}
+
+.back-btn{
+	background-color:#E3D7F4;
+	margin-bottom: 10px;
+	border:thin #591B7D solid;
+	border-radius: 10px;
+	text-align:center;
+}
+
+.fas{
+	color:#591B7D ;	
+}
+
+@media screen and (max-width: 900px) {
+	.display-3{
+		font-size:60px;
+	}
+	.display-4{
+		font-size: 40px;
+	}
+	.btn-default{
+		font-size:80%;
+	}
+}
