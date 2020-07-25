@@ -84,6 +84,9 @@ li:hover{
 }
 
 @media screen and (max-width: 900px) {
+	.rounded{
+		width:100%;
+	}
 	.display-3{
 		font-size:60px;
 	}
